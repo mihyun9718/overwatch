@@ -1,0 +1,310 @@
+* {
+    outline: 1px solid tomato--;
+}
+
+.inner {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.header {
+    max-width: 1920px;
+    background: #46537F;
+}
+
+.header .inner {
+    display: flex;
+    align-items: center;
+    max-width: 1750px;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.header .gnb {
+    display: flex;
+    flex: 1;
+    margin-left: 40px;
+}
+
+.header .gnb>ul {
+    display: flex;
+    gap: 30px;
+}
+
+.header .inner .left {
+    display: flex;
+    gap: 30px;
+}
+
+.header .inner {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.main_visual {
+    position: relative;
+    max-width: 1920px;
+    height: 780px;
+    margin: 0 auto;
+    background: url(../images/mainvisual.png) no-repeat center center/cover;
+}
+
+.main_visual .btn {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: #F06414;
+}
+
+.main_banner_content {
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+.main_banner_content .inner {
+    display: flex;
+    flex: 1;
+}
+
+.main_banner_content .inner .itm_box {
+    display: flex;
+    gap: 20px;
+}
+
+.main_banner_content .inner .itm_box img {
+    width: 430px;
+}
+
+
+
+.main_banner_content .inner span {
+    font-size: 38px;
+    font-weight: 700;
+    color: #333;
+}
+
+.main_banner_content .inner p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+
+    margin-top: 32px;
+}
+
+
+.main_banner_content .inner .btn {
+    margin-top: 60px;
+}
+
+.main_content {
+    background: url(../images/maincontent.jpg)no-repeat center center/cover;
+    padding: 80px;
+    margin: 0 auto;
+}
+
+.main_content .inner img {
+    width: 400px;
+}
+
+.main_content .title h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+
+.main_content .title p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.main_content .inner {
+    display: flex;
+    flex: 1;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.main_content .inner .img .txt {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.main_content .inner .img p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.charact_content {
+    max-width: 1920px;
+    background: url(../images/maincontent.jpg) no-repeat center center/cover;
+    padding: 80px;
+}
+
+
+.charact_content .title h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+
+}
+
+.charact_content .inner {
+    position: relative;
+    display: flex;
+    flex: 1;
+}
+
+
+.charact_content .inner .card_icon {
+    display: flex;
+    gap: 30px;
+}
+
+.charact_content .inner .card_icon .card {
+    margin-top: 100px;
+}
+
+.charact_content .inner .card_icon .card img {
+    margin-bottom: 40px;
+}
+
+.charact_content .inner .card_icon .card .txt {
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+.charact_content .inner .card {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 100px 50px;
+    background: transparent;
+    border: 2.5px solid #ddd;
+    border-radius: 10px;
+    color: #ddd;
+
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.charact_content .charac_img {
+    display: flex;
+}
+
+.charact_content .charac_img .charac {
+    display: none;
+}
+
+.charact_content .charac_img .txt_box {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    text-align: center;
+    color: #fff;
+}
+
+.charact_content .charac_img .img_box {
+    position: absolute;
+    max-width: 500px;
+    left: 50%;
+    transform: translate(30%, -5%);
+    padding: 20px;
+}
+
+.charact_content .charac_img .charac.on {
+    display: flex;
+    align-items: center;
+}
+
+.charact_content .charac_img .txt_box .serif {
+    font-size: 24px;
+}
+
+.charact_content .charac_img .txt_box p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+}
+
+.charact_content .charac_img .txt_box .btn {
+    margin-top: 40px;
+}
+
+.charact_content .charac_img .txt_box .bot {
+    font-size: 14px;
+    color: #ddd;
+    margin-top: 80px;
+}
+
+.ovmap_content {
+    max-width: 1920px;
+    background: url(../iconimages/쟁탈배경.jpg)no-repeat center center/cover;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+.ovmap_content .title h2 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+
+.ovmap_content .title p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+.ovmap_content .inner .iconbox {
+    display: flex;
+    flex: 1;
+    gap: 30px;
+}
+
+.ovmap_content .inner .iconbox {
+    margin-left: 25%;
+    gap: 30px;
+}
+
+.ovmap_content .inner .iconbox .iconimgbox {
+    margin-top: 40px;
+}
+
+.ovmap_content .inner .iconbox .iconimgbox img {
+    width: 50px;
+}
+
+
+.ovmap_content .inner .iconbox .iconimgbox p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+
+    margin-top: 24px;
+    text-align: center;
+}
+
+.ovmap_content .ovmap_img {
+    margin-top: 60px;
+    margin-left: 23%;
+}
